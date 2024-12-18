@@ -7,7 +7,7 @@ sudo apt install python3-pip
 - Bước 2: Cài đặt git
 sudo apt install git
 
-- Bước 3: Cập nhật các chức năng cần thiết
+- Bước 3: Cập nhật các chức năng cần thiết và chờ khởi động lại
 sudo apt-get update
 sudo apt-get install open-vm-tools-desktop
 sudo apt-get install open-vm-tools
@@ -16,4 +16,9 @@ sudo reboot
 - Bước 4: Tải công cụ DDoS về và cài đặt
 git clone https://github.com/MatrixTM/MHDDoS.git
 cd MHDDoS
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt
+
+- Cài như sau nếu dòng trên lỗi:
 sudo pip install -r requirements.txt
