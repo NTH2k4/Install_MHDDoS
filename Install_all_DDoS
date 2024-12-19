@@ -3,6 +3,9 @@ sudo apt update
 sudo apt install python3
 sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget
 sudo apt install python3-pip
+pip install --upgrade requests
+pip install --upgrade urllib3
+pip install --upgrade charset_normalizer
 
 - Bước 2: Cài đặt git
 sudo apt install git
